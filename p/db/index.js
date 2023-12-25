@@ -19,7 +19,8 @@ import {parseLocation as _parseLocation} from '../../parse/location.js'
 import {formatStation as _formatStation} from '../../format/station.js'
 import {bike} from '../../format/filters.js'
 
-const baseProfile = require('./base.json')
+// const baseProfile = require('./base.js')
+import {baseProfile} from './base.js'
 import {products} from './products.js'
 import {formatLoyaltyCard} from './loyalty-cards.js'
 import {ageGroup, ageGroupFromAge} from './ageGroup.js'
